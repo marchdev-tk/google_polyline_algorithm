@@ -1,4 +1,10 @@
-## 1.0.0
+# Changelog
+
+## [2.0.0]
+
+* Update dart version constraints
+
+## [1.0.0]
 
 * Added `encodePoint`, `encodePolyline` and `decodePolyline` methods
 * Added Examples
