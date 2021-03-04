@@ -1,5 +1,5 @@
 name: google_polyline_algorithm
-version: 2.0.0
+version: 3.0.0
 homepage: https://github.com/marchdev-tk/google_polyline_algorithm
 description: Dart implementation of Googles Polyline Encoding lossy compression Algorithm.
 
