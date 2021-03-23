@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0
+
+* Fixed issue with ~ operator in Chrome-web (thanks to [hallr-boulder](https://github.com/hallr-boulder))
+
 ## 3.0.0
 
 * Updated to NNBD

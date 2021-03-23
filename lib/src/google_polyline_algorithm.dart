@@ -292,8 +292,9 @@ List<List<num>> decodePolyline(String polyline, {int accuracyExponent = 5}) {
       ///
       ///  * Left-shift the `value` for one bit
       ///  * Inversion `value` if it is negative
+      final value = result >> 1;
       final coordinateChange =
-          (result & 1) != 0 ? ~(result >> 1) : (result >> 1);
+          (result & 1) != 0 ? (~BigInt.from(value)).toInt() : value;
 
       /// It is needed to clear `shift` and `result` for next coordinate.
       shift = result = 0;
